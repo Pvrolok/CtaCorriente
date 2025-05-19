@@ -8,8 +8,12 @@ import com.platinum.ctacorriente.util.ConexionBD;
 public class ConexionBDTest {
 
   @Test
-  public void testConexionExitosa() throws Exception {
-    Connection conn = ConexionBD.getConnection();
-    assertNotNull("La conexión no debe ser null", conn);
+  public void testConexionExitosa() {
+    try {
+      Connection conn = ConexionBD.getConnection();
+      assertNotNull("La conexión no debe ser null", conn);
+    } catch (Exception e) {
+      fail("No se pudo conectar a la BD: " + e.getMessage());
+    }
   }
 }
