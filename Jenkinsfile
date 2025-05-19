@@ -4,7 +4,7 @@ pipeline {
   environment {
     ARTIFACTORY_URL = 'http://localhost:8082/artifactory/cta-corriente-release/'
     ARTIFACTORY_REPO = 'cta-corriente-release'
-    ARTIFACTORY_CRED_ID = 'cred-artifactory'
+    ARTIFACTORY_CRED_ID = '1bfa240d-a56b-4b53-9f1c-108924d67617'
   }
 
   stages {
