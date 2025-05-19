@@ -1,0 +1,3 @@
+com\platinum\ctacorriente\test\ConexionBDTest.class
+com\platinum\ctacorriente\runner\TestRunner.class
+com\platinum\ctacorriente\stepdefs\LoginSteps.class
