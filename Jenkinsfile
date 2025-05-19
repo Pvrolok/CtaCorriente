@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/usuario/CtaCorriente.git'
+        git 'https://github.com/Pvrolok/CtaCorriente.git'
       }
     }
 
